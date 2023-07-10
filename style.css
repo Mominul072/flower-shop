@@ -2,3 +2,159 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 60px;
+}
+
+.shop-title{
+    color: #f3ebeb;
+    font-size: 30px;
+    font-weight: 800;
+} 
+.text-primary{
+    color: #dc41a6;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/* header related styles */
+.header{
+  /* background-color: #f208a0; */
+}
+.banner{
+    padding:50px 30px 0px 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.banner.profile-pic{
+    /* width: 500px; */
+    width: 635px;
+    height: 800px;
+}
+.banner-greeting{
+    
+     color: #272727;
+    font-size: 45px;
+   
+    margin-bottom: 0px;
+
+   
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #fd0a3f;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+
+/* hot deal section style */
+.off-btn{
+    color: #dc41a6;
+}
+
+.hot-deal{
+   
+   
+    display: flex;
+    align-items:center;
+ 
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 50px;
+   
+    /* justify-content: space-around; */
+    margin-left: 30px;
+}
+.deal-pic{
+  
+    margin-right: 30px;
+}
+
+
+
+
+/* greatest deal style */
+.greatest-container{
+
+}
+
+
+.deal-title{
+    text-align: center;
+    padding:50px;
+
+}
+
+/* insta style */
+
+.ins-title {
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+
+}
+.ins-description{
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.insta_container{
+    display: flex;
+    width: 342px;
+    height: 396px;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+/* footer style */
+footer{
+    
+   
+    background: #0f0f0e;
+    padding: 130px 230px;
+    margin-top: 100px;
+    text-align: center;
+    color: azure;
+    
+}
+.footer{
+    padding:0px 300px
+}
