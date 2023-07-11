@@ -49,6 +49,7 @@ nav a{
     align-items:center;
     justify-content: space-between;
     background: rgba(237, 0, 51, 0.138);
+
 }
 .banner.profile-pic{
     /* width: 500px; */
@@ -189,6 +190,7 @@ nav a{
     margin-bottom: 130px;
     background: rgba(237, 0, 51, 0.138);
     gap: 50px;
+    justify-content: center;
    
     
 }
@@ -217,7 +219,7 @@ nav a{
         text-align: center;
 }
 
-.gretest-input{
+.greatest-input{
     border-radius: 5px;
     /* background: #fd0a3f; */
     border: 0px;
@@ -253,23 +255,27 @@ nav a{
     margin-bottom: 50px;
 }
 
-.insta-container{
+.instagram-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    /* margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 150px; */
+    margin-bottom: 150px;
+    gap: 40px;
+
+   
 
 
 }
-.flower{
-     width: 342px;
-     height: 396px; 
 
+.flower-pic{
+    width: 300px;
+    height: 280px; 
 }
+
+
 
 /* footer style */
+
+
 footer{
     
     
