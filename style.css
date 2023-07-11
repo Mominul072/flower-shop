@@ -255,11 +255,11 @@ nav a{
 
 .insta-container{
     display: flex;
-   
+    justify-content: center;
     gap: 30px;
-    margin-left: 30px;
+    /* margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 150px; */
 
 
 }
